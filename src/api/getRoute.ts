@@ -19,8 +19,9 @@ export const getRoute = async (locations: LatLng[]) => {
     return axios.get(url, {
         params: {
             access_token: MAPBOX_TOKEN,
-            steps: true
-            //annotations: 'maxspeed',
+            steps: true,
+            overview: 'full',
+            annotations: 'duration',
         }
     })
 }
