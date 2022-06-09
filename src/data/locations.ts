@@ -72,7 +72,7 @@ export const musicLib: { [key: string]: MusicTrack } = {
     getPumped: { artist: 'Lizzo', track: 'Good as Hell', genre: 'Pop'}
 }
 
-type Trip = {
+export type Trip = {
     waypoints: Waypoint[],
     //user: User,
     mood: UserMood,
@@ -123,4 +123,4 @@ export const dropKidsSchool: Partial<Trip> = {
     songs: [ musicLib.kids, musicLib.chill, musicLib.getPumped ],
 }
 
-export const TRIPS = [ commuteHomeWithDinner, commuteHomeWithGym, commuteHomeWithGymDinner, commuteToHome, dropKidsSchool, dateNight ]
+export const TRIPS = [ commuteHomeWithDinner, commuteHomeWithGym, commuteHomeWithGymDinner, commuteToHome, dropKidsSchool, dateNight ];
