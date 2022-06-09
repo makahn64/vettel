@@ -1,11 +1,11 @@
 export enum TypeOfLocation {
-    'home',
-    'work',
-    'gym',
-    'park',
-    'friend',
-    'food',
-    'school'
+    'home' = 'HOME',
+    'work' = 'WORK',
+    'gym' = 'GYM',
+    'park' = 'PARK',
+    'friend' = 'FRIEND',
+    'food' = 'FOOD',
+    'school' = 'SCHOOL'
 }
 
 export type LatLng = { lat: number; long: number };

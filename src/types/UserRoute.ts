@@ -7,11 +7,11 @@ export type User = {
 }
 
 export enum UserMood {
-    'chilled', 
-    'motivated', 
-    'sad', 
-    'happy', 
-    'stressed'
+    'chilled' = 'CHILLER', 
+    'motivated' = 'MOTIVATED', 
+    'sad' = 'SAD', 
+    'happy' = 'HAPPY', 
+    'stressed' = 'STRESSED'
 }
 
 export type UserRoute = {

@@ -1,0 +1,51 @@
+{
+    "waypoints": [
+        {
+            "geolocation": {
+                "lat": 37.30093779476478,
+                "long": -121.90859350814958
+            },
+            "type": "HOME",
+            "name": "Mitch House"
+        },
+        {
+            "geolocation": {
+                "lat": 37.28995752849003,
+                "long": -121.89550586629684
+            },
+            "type": "SCHOOL",
+            "name": "Middle School"
+        },
+        {
+            "geolocation": {
+                "lat": 37.41058203847942,
+                "long": -122.03649431935926
+            },
+            "type": "WORK",
+            "name": "Mitch Office"
+        }
+    ],
+    "mood": "STRESSED",
+    "songs": [
+        {
+            "artist": "The Wiggles",
+            "track": "The Wheels on the Bus",
+            "genre": "Children"
+        },
+        {
+            "artist": "Nbdy Imprt",
+            "track": "Spicy Latin",
+            "genre": "Electronic"
+        },
+        {
+            "artist": "Lizzo",
+            "track": "Good as Hell",
+            "genre": "Pop"
+        }
+    ],
+    "timestamp": 1654749546241,
+    "id": "tGKr094jQjrW1wObkaHub1igPaWtFjtnLDKdMKIiCqJStz0cwR_V1w==",
+    "route": {
+        "tripDuration": 1782.486
+    }
+}
